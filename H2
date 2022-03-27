@@ -20,7 +20,7 @@ while(iter<T)
     iter=iter+1;
     Um=U.^M;
     C=(Um'*sumo)./((Um'*Sl)*ones(1,p));
-    dist = sum(output.*output, 2)*ones(1, k) + (sum(C.*C, 2)*ones(1, N))'-2*output*C';%dist为N*k的矩阵
+    dist = sum(output.*output, 2)*ones(1, k) + (sum(C.*C, 2)*ones(1, N))'-2*output*C';
     t=(1./dist).^(1/(M-1));
     U=t./(sum(t,2)*ones(1,k));
     Obj_cur=sum(Sl'*((U.^M).*dist));
