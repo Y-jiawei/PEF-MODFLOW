@@ -6,7 +6,7 @@ The PEF- MODFLOW is the first application framework for soil profile horizon del
 
 2.1. Operating software
 
-Matlab 2018b and newer are recommended as the running software for the PEF- MODFLOW.
+MATLAB 2018b and newer are recommended as the running software for the PEF- MODFLOW.
 
 2.2. System requirements
 
