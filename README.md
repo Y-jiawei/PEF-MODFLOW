@@ -5,9 +5,11 @@ The PEF- MODFLOW is the first application framework for soil profile horizon del
 2. Environmental requirements
 
 2.1. Operating software
+
 Matlab 2018b and newer are recommended as the running software for the PEF- MODFLOW.
 
 2.2. System requirements
+
 The recommended system requirements for running PEF- MODFLOW are：
 
 (1)	Operating system: recommended for Windows 10 (64-bit) or macOS Mojava 10.14;
@@ -23,6 +25,7 @@ The recommended system requirements for running PEF- MODFLOW are：
 3.1. Code introduction
 
 3.3.1 Main code
+
 'Main' is the main running code for PEF- MODFLOW and is used to concatenate all functions: preprocessing function, elbow method function and FCM-based horizon delineation functions. In the 'Main', users need to enter the storage path of the soil profile image.
 
 3.3.2	Preprocessing functions
@@ -33,6 +36,7 @@ The recommended system requirements for running PEF- MODFLOW are：
 (3)	Storage: total depth of soil profile, preprocessed image.
 
 3.3.3	Elbow method functions
+
 (1)	Input: preprocessed image;
 
 (2)	Process: calculate the SSE for the number of clusters from 2 to 10 in turn;
@@ -43,6 +47,7 @@ The recommended system requirements for running PEF- MODFLOW are：
 
 3.3.4 FCM-based horizon delineation functions
 This function contains 9 sub-functions with the number of horizons from 2 to 10 respectively. The function is called according to the result of the elbow method.
+
 (1)	Input: number of horizons, parameters of the preprocessed image
 
 (2)	Process: FCM clustering, boundary refinement, delineation of horizon shape boundaries, delineation of horizon linear boundaries, calculation of horizon depth ranges
