@@ -29,7 +29,7 @@ The recommended system requirements for running PEF- MODFLOW are：
 (1)	Input: preprocessed image;
 (2)	Process: calculate the SSE for the number of clusters from 2 to 10 in turn;
 (3)	Show: SSE with the number of clusters from 2 to 10 and Reading rules of the elbow method;
-(4)	Results: combining the reading rules of the elbow method to obtain the number of soil profile horizons.
+(4)	Results: obtain the number of soil profile horizons.
 
 3.3.4 FCM-based horizon delineation functions
 This function contains 9 sub-functions with the number of horizons from 2 to 10 respectively. The function is called according to the result of the elbow method.
