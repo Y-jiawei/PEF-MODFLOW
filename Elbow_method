@@ -56,8 +56,5 @@
         [f,g]=find(D==min(D(:,2)));
         plot(D(:,1),D(:,2)),title('SSE');
         
-        %Reading rules of the elbow method
-         figure('Name','Reading rules of the elbow method.jpg');
-        imshow('Reading rules of the elbow method.jpg');
 
  end
